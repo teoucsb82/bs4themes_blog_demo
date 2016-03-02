@@ -1,8 +1,6 @@
 Rails.application.routes.draw do
+  root 'landing#home'  
   get 'landing/home'
-
-  get 'landing/about'
-
   get 'landing/blog'
 
   # The priority is based upon order of creation: first created -> highest priority.
